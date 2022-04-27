@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1628017847 source:c:\users\ickysaladtosser\desktop\phonebook\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1628018863 source:c:\users\ickysaladtosser\desktop\erryting\phonebook\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
