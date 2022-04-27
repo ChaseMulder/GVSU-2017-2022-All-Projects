@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=BabyNamesDatabase
+comment1.params=
+comment1.target=BabyNamesDatabase()
+comment10.params=year
+comment10.target=java.util.ArrayList\ topTenNames(int)
+comment2.params=filename
+comment2.target=void\ readBabyNameData(java.lang.String)
+comment3.params=
+comment3.target=int\ countAllNames()
+comment4.params=
+comment4.target=int\ countAllGirls()
+comment5.params=
+comment5.target=int\ countAllBoys()
+comment6.params=year
+comment6.target=BabyName\ mostPopularGirl(int)
+comment7.params=year
+comment7.target=BabyName\ mostPopularBoy(int)
+comment8.params=name
+comment8.target=java.util.ArrayList\ searchForName(java.lang.String)
+comment9.params=year
+comment9.target=java.util.ArrayList\ searchForYear(int)
+numComments=11
