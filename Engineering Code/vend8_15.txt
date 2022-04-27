@@ -1,0 +1,191 @@
+module vending_machine(quarter_in, nickel_in, dime_in, quarter_out, nickel_out, dime_out, gum_selected, gum_out, apple_selected, apple_out, pretzel_selected, pretzel_out, clk, reset);
+
+input quarter_in, nickel_in, dime_in, clk, reset,gum_selected, apple_selected, pretzel_selected;
+output  quarter_out, nickel_out, dime_out, gum_out, apple_out, pretzel_out;
+reg[3:0] current_state, next_state;
+parameter cent0 = 0, cent5= 1, cent10 = 2, cent15=3, cent20 =4, cent25 =5, cent30=6,cent35=7,cent40=8,cent45=9,cent50=10,centEr=11;
+
+always @(posedge clock or posedge reset)
+begin
+if(reset)
+begin
+current_state = cent0;
+end
+else
+current_state = next_state;
+end
+
+always @(current_state | ((quarter_in ^ nickel_in) ^ dime_in))
+begin
+case(current_state)
+
+// Gum.15   Apple.25    Pretzel.30
+
+cent0: begin
+if(nickel_in)  
+next_state = cent5;
+else if(dime_in)
+next_state = cent10;
+else if(quarter_in)
+next_state = cent25;
+end
+
+cent5: begin
+if(nickel)  
+next_state = cent10;
+else if(dime)
+next_state = cent15;
+else if(quarter)
+next_state = cent30;
+end
+
+cent10: begin
+if(nickel)  
+next_state = cent15;
+else if(dime)
+next_state = cent20;
+else if(quarter)
+next_state = cent35;
+end
+
+cent15: begin
+if(nickel)  
+next_state = cent20;
+else if(dime)
+next_state = cent25;
+else if(quarter)
+next_state = cent40;
+if(gum_selected)
+gum_out = 1;
+end
+
+cent20: begin
+if(nickel)  
+next_state = cent25;
+else if(dime)
+next_state = cent30;
+else if(quarter)
+next_state = cent45;
+if(gum_selected)
+gum_out = 1;
+nickel_out = 1;
+end
+
+cent25: begin
+if(nickel)  
+next_state = cent30;
+else if(dime)
+next_state = cent35;
+else if(quarter)
+next_state = cent50;
+if(gum_selected)
+gum_out = 1;
+dime_out;
+if(apple_selected)
+apple_out = 1;
+end
+
+cent30: begin
+if(nickel)
+next_state = centEr;
+else if(dime)
+next_state = centEr;
+else if(quarter)
+next_state = centEr;
+if(gum_selected)
+gum_out = 1;
+dime_out;
+nickle_out;
+if(apple_selected)
+apple_out = 1;
+nickle_out;
+if(pretzel_selected)
+pretzel_out = 1;
+end
+
+cent35: begin
+if(nickel)
+next_state = centEr;
+else if(dime)
+next_state = centEr;
+else if(quarter)
+next_state = centEr;
+if(gum_selected)
+gum_out = 1;
+dime_out;
+dime_out;
+if(apple_selected)
+apple_out = 1;
+dime_out;
+if(pretzel_selected)
+pretzel_out = 1;
+nickel_out = 1;
+end
+
+cent40: begin
+if(nickel)
+next_state = centEr;
+else if(dime)
+next_state = centEr;
+else if(quarter)
+next_state = centEr;
+if(gum_selected)
+gum_out = 1;
+quarter_out;
+if(apple_selected)
+apple_out = 1;
+dime_out;
+nickle_out;
+if(pretzel_selected)
+pretzel_out = 1;
+dime_out = 1;
+end
+
+cent45: begin
+if(nickel)
+next_state = centEr;
+else if(dime)
+next_state = centEr;
+else if(quarter)
+next_state = centEr;
+if(gum_selected)
+gum_out = 1;
+quarter_out;
+nickle_out;
+if(apple_selected)
+apple_out = 1;
+dime_out;
+dime_out;
+if(pretzel_selected)
+pretzel_out = 1;
+dime_out = 1;
+nickle_out;
+end
+
+cent50: begin
+if(nickel)
+next_state = centEr;
+else if(dime)
+next_state = centEr;
+else if(quarter)
+next_state = centEr;
+if(gum_selected)
+gum_out = 1;
+quarter_out;
+dime_out;
+if(apple_selected)
+apple_out = 1;
+quarter_out;
+if(pretzel_selected)
+pretzel_out = 1;
+dime_out = 1;
+dime_out;
+end
+
+
+default: next_state = current_state;
+endcase
+
+
+endmodule
+
