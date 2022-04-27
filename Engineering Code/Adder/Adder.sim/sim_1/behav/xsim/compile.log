@@ -1,0 +1,52 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_or2_0_0/sim/design_1_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_xor2_0_0/sim/design_1_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_and2_0_0/sim/design_1_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_and2_1_0/sim/design_1_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_or2_1_0/sim/design_1_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_xor2_1_0/sim/design_1_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_xor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_or2_0_1/sim/design_1_xup_or2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_or2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_xor2_0_1/sim/design_1_xup_xor2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_xor2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_and2_0_1/sim/design_1_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_and2_1_1/sim/design_1_xup_and2_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_or2_1_1/sim/design_1_xup_or2_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_or2_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xup_xor2_1_1/sim/design_1_xup_xor2_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_xor2_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/ip/design_1_xlslice_1_0/sim/design_1_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder1_imp_1L07MCW
+INFO: [VRFC 10-311] analyzing module FullAdder_imp_U5H43K
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.srcs/sim_1/new/lab3_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Adder/Adder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

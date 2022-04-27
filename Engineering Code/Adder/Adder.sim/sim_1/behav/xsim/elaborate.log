@@ -1,0 +1,41 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f39ace53ec3f4eddb614b8aa9f21dd4e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_5 -L xlconcat_v2_1_1 -L xlslice_v1_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lab3_tb_behav xil_defaultlib.lab3_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.design_1_xup_and2_0_0
+Compiling module xil_defaultlib.design_1_xup_and2_1_0
+Compiling module xil_defaultlib.xup_or2
+Compiling module xil_defaultlib.design_1_xup_or2_0_0
+Compiling module xil_defaultlib.design_1_xup_or2_1_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.design_1_xup_xor2_0_0
+Compiling module xil_defaultlib.design_1_xup_xor2_1_0
+Compiling module xil_defaultlib.FullAdder_imp_U5H43K
+Compiling module xil_defaultlib.design_1_xup_and2_0_1
+Compiling module xil_defaultlib.design_1_xup_and2_1_1
+Compiling module xil_defaultlib.design_1_xup_or2_0_1
+Compiling module xil_defaultlib.design_1_xup_or2_1_1
+Compiling module xil_defaultlib.design_1_xup_xor2_0_1
+Compiling module xil_defaultlib.design_1_xup_xor2_1_1
+Compiling module xil_defaultlib.FullAdder1_imp_1L07MCW
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat_default
+Compiling module xil_defaultlib.design_1_xlconcat_0_0
+Compiling module xlconstant_v1_1_5.xlconstant_v1_1_5_xlconstant(CON...
+Compiling module xil_defaultlib.design_1_xlconstant_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xil_defaultlib.design_1_xlslice_0_2
+Compiling module xil_defaultlib.design_1_xlslice_1_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.lab3_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab3_tb_behav
