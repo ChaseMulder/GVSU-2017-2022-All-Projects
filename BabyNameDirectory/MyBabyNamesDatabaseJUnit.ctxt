@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyBabyNamesDatabaseJUnit
+comment0.text=\r\n\ Class\ to\ test\ the\ BabyNamesDatabase\ project\r\n\r\n\ @author\ -\ Ana\ Posada\r\n\ @version\ -\ March\ 2020\r\n
+comment1.params=
+comment1.target=void\ testConstructor()
+comment1.text=\r\n\ Test\ constructor\r\n
+comment2.params=
+comment2.target=void\ testReadFileAndCounts()
+comment2.text=\r\n\ Test\ read\ file\ and\ counts\r\n
+comment3.params=
+comment3.target=void\ testMostPopularNames()
+comment3.text=\r\n\ Test\ Most\ popular\ girl\ -\ Most\ popular\ boy\r\n
+comment4.params=
+comment4.target=void\ testSearchForName()
+comment4.text=\r\n\ Test\ search\ for\ name\r\n
+comment5.params=
+comment5.target=void\ testSearchForYear()
+comment5.text=\r\n\ Test\ search\ for\ year\r\n
+comment6.params=
+comment6.target=void\ testTopTen()
+comment6.text=\r\n\ Test\ top\ ten\r\n
+numComments=7
