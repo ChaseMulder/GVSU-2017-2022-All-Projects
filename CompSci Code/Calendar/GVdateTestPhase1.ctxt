@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GVdateTestPhase1
+comment0.text=\r\n\ The\ test\ class\ GVdate\ -\ Phase\ 1\r\n\r\n\ @author\ \ Ana\ Posada\r\n\ @version\ 1.0.0\r\n
+comment1.params=
+comment1.target=void\ testDefaultConstructor()
+comment1.text=\r\n\ \ Test\ Date\ Constructor-\ no\ input\ parameters\r\n
+comment2.params=
+comment2.target=void\ testSecondConstructor()
+comment2.text=\r\n\ \ Test\ Date\ Constructor(int\ m,\ int\ d,\ int\ y)\r\n
+comment3.params=
+comment3.target=void\ testSetDate()
+comment3.text=\r\n\ Test\ setDate\ \r\n
+comment4.params=
+comment4.target=void\ testSetMonth()
+comment4.text=\r\n\ Test\ setMonth\ \r\n
+comment5.params=
+comment5.target=void\ testSetYear()
+comment5.text=\r\n\ Test\ setYear\r\n
+comment6.params=
+comment6.target=void\ testSetDay()
+comment6.text=\r\n\ Test\ setDay\r\n
+comment7.params=
+comment7.target=void\ testToString()
+comment7.text=\r\n\ Test\ toString\r\n
+numComments=8
