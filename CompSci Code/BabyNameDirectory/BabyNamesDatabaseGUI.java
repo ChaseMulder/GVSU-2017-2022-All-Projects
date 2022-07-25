@@ -96,14 +96,14 @@ public class BabyNamesDatabaseGUI extends JFrame implements ActionListener{
         yearButton = new JButton ("By Year");
 
         // TO DO: finish the statements to instantiate the JButtons
-        mostPopularButton =
-        topTenButton = 
-        nameButton = 
+        mostPopularButton = new JButton ("Most Popular");
+        topTenButton = new JButton ("Top 10");
+        nameButton = new JButton ("Name");
 
         yearTextField = new JTextField (5);
 
         //TO DO: finish the statement to instantiate nameTextField
-        nameTextField = 
+        nameTextField = new JTextField (15);
 
             // adding labels and buttons
         loc = new GridBagConstraints();
