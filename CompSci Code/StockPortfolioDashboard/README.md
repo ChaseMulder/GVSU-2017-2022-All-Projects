@@ -18,7 +18,7 @@ Raspberry-Pi based IoT device that watches stock tickers and displays them on a 
 
 ## Run Instructions
 
-* Connect LED Panel?? (We still do not know how to do this...)
+* Connect LED Panel
 * Start up Apache and MySQL
 * At first run, insert two tables into the database with schema and values prescribed in [the sql file](/src/sql).
 * Build and run the Java project
